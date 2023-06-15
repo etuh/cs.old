@@ -1,0 +1,1841 @@
+INFO - 2023-03-21 07:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 07:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 07:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 07:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 07:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 07:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 07:56:19 --> Class "App\Models\Exception" not found
+in APPPATH\Models\UsersModel.php on line 35.
+ 1 APPPATH\Controllers\Accounts.php(81): App\Models\UsersModel->addUser([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accounts->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 07:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 07:59:08 --> Username already exists
+in APPPATH\Models\UsersModel.php on line 36.
+ 1 APPPATH\Controllers\Accounts.php(81): App\Models\UsersModel->addUser([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accounts->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 08:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 08:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 09:12:52 --> Undefined variable $flycodes
+in APPPATH\Views\forms\order.php on line 45.
+ 1 APPPATH\Views\forms\order.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flycodes', 'APPPATH\\Views\\forms\\order.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\forms\\order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forms/order', [], true)
+ 5 APPPATH\Controllers\Forms.php(56): view('forms/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->order()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 09:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 09:13:49 --> Undefined variable $flycodes
+in APPPATH\Views\forms\order.php on line 45.
+ 1 APPPATH\Views\forms\order.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flycodes', 'APPPATH\\Views\\forms\\order.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\forms\\order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forms/order', [], true)
+ 5 APPPATH\Controllers\Forms.php(56): view('forms/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->order()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 09:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 09:14:27 --> Undefined variable $flycodes
+in APPPATH\Views\forms\order.php on line 45.
+ 1 APPPATH\Views\forms\order.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flycodes', 'APPPATH\\Views\\forms\\order.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\forms\\order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forms/order', [], true)
+ 5 APPPATH\Controllers\Forms.php(56): view('forms/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->order()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 09:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 15:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 15:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:42:06 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(100): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:46:21 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(100): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 15:47:38 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(27): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(95): App\Models\CustomersModel->getUserid(1)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 15:47:38 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE 0 = :0:
+AND 1 = :1:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\CustomersModel.php(27): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Lists.php(95): App\Models\CustomersModel->getUserid(1)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 15:48:03 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(27): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(95): App\Models\CustomersModel->getUserid(1)
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 15:48:03 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE 0 = :0:
+AND 1 = :1:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\CustomersModel.php(27): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(95): App\Models\CustomersModel->getUserid(1)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:48:34 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\UsersModel.php(76): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(97): App\Models\UsersModel->getNamebyid([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:50:09 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\UsersModel.php(76): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(97): App\Models\UsersModel->getNamebyid([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:50:21 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\UsersModel.php(76): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(97): App\Models\UsersModel->getNamebyid([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:51:12 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\UsersModel.php(77): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(97): App\Models\UsersModel->getNamebyid([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:54:13 --> syntax error, unexpected identifier "var_dump", expecting variable or "{" or "$"
+in APPPATH\Models\UsersModel.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\UsersModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsersModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsersModel')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\UsersModel')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\UsersModel')
+ 6 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\UsersModel', [...], null)
+ 8 APPPATH\Controllers\Lists.php(87): model('App\\Models\\UsersModel')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:54:31 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(102): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:55:01 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(102): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:56:36 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(104): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 15:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 15:56:56 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(104): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 17:42:54 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(104): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 17:43:35 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(104): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 17:47:49 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 7 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 17:51:32 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 17:51:32 --> pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 17:52:20 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 17:52:20 --> pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 17:53:25 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(104): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 17:53:45 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 17:53:45 --> pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 17:53:56 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(104): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 17:54:23 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(78): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid(Array)
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 17:54:23 --> pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\UsersModel.php(78): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 17:54:34 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(104): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 17:55:22 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 17:55:22 --> pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 17:56:30 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 17:56:30 --> pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('11','7')
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" = :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(99): App\Models\UsersModel->getNamebyid([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 17:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 17:57:03 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(104): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:08:04 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('customerid', 1, false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('customerid', 1)
+ 3 APPPATH\Models\CustomersModel.php(27): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\Lists.php(95): App\Models\CustomersModel->getUserid(1)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:08:24 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(104): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:08:51 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('customerid', 1, false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('customerid', 1)
+ 3 APPPATH\Models\CustomersModel.php(27): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\Lists.php(95): App\Models\CustomersModel->getUserid(1)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:09:41 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(31): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(95): App\Models\CustomersModel->getUserid(1)
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 18:09:41 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE 0 = :0:
+AND 1 = :1:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\CustomersModel.php(31): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(95): App\Models\CustomersModel->getUserid(1)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:11:42 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(31): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(96): App\Models\CustomersModel->getUserid(1)
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 18:11:42 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE 0 = :0:
+AND 1 = :1:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\CustomersModel.php(31): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(96): App\Models\CustomersModel->getUserid(1)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:11:51 --> Undefined variable $customerid
+in APPPATH\Controllers\Lists.php on line 94.
+ 1 APPPATH\Controllers\Lists.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customerid', 'APPPATH\\Controllers\\Lists.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:12:23 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;customerid&quot; IN ()
+                               ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(97): App\Models\CustomersModel->getUserid(Array)
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 18:12:23 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;customerid&quot; IN ()
+                               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE "customerid" IN :customerid:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(97): App\Models\CustomersModel->getUserid([])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:12:40 --> Undefined variable $cordererid
+in APPPATH\Controllers\Lists.php on line 95.
+ 1 APPPATH\Controllers\Lists.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cordererid', 'APPPATH\\Controllers\\Lists.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:12:46 --> Undefined variable $ordererid
+in APPPATH\Controllers\Lists.php on line 95.
+ 1 APPPATH\Controllers\Lists.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ordererid', 'APPPATH\\Controllers\\Lists.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:12:54 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;customerid&quot; IN ()
+                               ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(97): App\Models\CustomersModel->getUserid(Array)
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 18:12:54 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;customerid&quot; IN ()
+                               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE "customerid" IN :customerid:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(97): App\Models\CustomersModel->getUserid([])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:16:51 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;customerid&quot; IN ()
+                               ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(98): App\Models\CustomersModel->getUserid(Array)
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 18:16:51 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;customerid&quot; IN ()
+                               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE "customerid" IN :customerid:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(98): App\Models\CustomersModel->getUserid([])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:21:13 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;customerid&quot; IN ()
+                               ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(102): App\Models\CustomersModel->getUserid(Array)
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 18:21:13 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;customerid&quot; IN ()
+                               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE "customerid" IN :customerid:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(102): App\Models\CustomersModel->getUserid([])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:21:52 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;usericustomeridd&quot; does not exist
+LINE 1: SELECT &quot;usericustomeridd&quot;
+               ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "usericu...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "usericu...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "usericu...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "usericu...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\OrdersModel.php(26): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(98): App\Models\OrdersModel->getCustomerid(Array)
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 18:21:52 --> pg_query(): Query failed: ERROR:  column &quot;usericustomeridd&quot; does not exist
+LINE 1: SELECT &quot;usericustomeridd&quot;
+               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "usericustomeridd"
+FROM "orders"
+WHERE "orderid" IN :orderid:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\OrdersModel.php(26): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(98): App\Models\OrdersModel->getCustomerid([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:22:28 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "userid"
+FROM "customer"
+WHERE "customerid" IN :customerid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE "customerid" IN :customerid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(104): App\Models\CustomersModel->getUserid([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:23:00 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "userid"
+FROM "customer"
+WHERE "customerid" IN :customerid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE "customerid" IN :customerid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\CustomersModel.php(29): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(103): App\Models\CustomersModel->getUserid([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:23:53 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(113): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:25:10 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:25:29 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:26:16 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:26:47 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:27:11 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:27:30 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:27:58 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:28:00 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:28:17 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:28:40 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:28:57 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:35:02 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(111): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:38:32 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('customerid', '1', false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('customerid', '1')
+ 3 APPPATH\Models\CustomersModel.php(32): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\Lists.php(102): App\Models\CustomersModel->getUserid([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:38:59 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;userid&quot; IN ()
+                           ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(106): App\Models\UsersModel->getNamebyid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 18:38:59 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;userid&quot; IN ()
+                           ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" IN :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(106): App\Models\UsersModel->getNamebyid([])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:51:59 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;userid&quot; IN ()
+                           ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(106): App\Models\UsersModel->getNamebyid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 18:51:59 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;userid&quot; IN ()
+                           ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" IN :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(106): App\Models\UsersModel->getNamebyid([])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:52:16 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;userid&quot; IN ()
+                           ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(106): App\Models\UsersModel->getNamebyid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 18:52:16 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;userid&quot; IN ()
+                           ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" IN :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UsersModel.php(78): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(106): App\Models\UsersModel->getNamebyid([])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 18:53:28 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;userid&quot; IN ()
+                           ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "name"\nF...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "name"\nF...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "name"\nF...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"\nF...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(76): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(107): App\Models\UsersModel->getNamebyid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->orders()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 18:53:28 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 3: WHERE &quot;userid&quot; IN ()
+                           ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "name"
+FROM "users"
+WHERE "userid" IN :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UsersModel.php(76): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(107): App\Models\UsersModel->getNamebyid([])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:53:41 --> Undefined variable $userid
+in APPPATH\Controllers\Lists.php on line 104.
+ 1 APPPATH\Controllers\Lists.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'APPPATH\\Controllers\\Lists.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:53:50 --> Undefined variable $userid
+in APPPATH\Controllers\Lists.php on line 106.
+ 1 APPPATH\Controllers\Lists.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'APPPATH\\Controllers\\Lists.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:54:07 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(110): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:54:53 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(109): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:56:50 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Models\UsersModel.php on line 82.
+ 1 APPPATH\Models\UsersModel.php(82): array_push(null, 'test8')
+ 2 APPPATH\Controllers\Lists.php(104): App\Models\UsersModel->getNamebyid([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:57:01 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(109): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:57:32 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(110): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:58:55 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 APPPATH\Views\lists\orders.php(26): array_combine([...], [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(110): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:59:27 --> Array to string conversion
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lists\\orders.php', 26)
+ 2 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 6 APPPATH\Controllers\Lists.php(110): view('lists/orders', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 18:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 18:59:58 --> Array to string conversion
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lists\\orders.php', 26)
+ 2 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 6 APPPATH\Controllers\Lists.php(110): view('lists/orders', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 19:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 19:01:55 --> Array to string conversion
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lists\\orders.php', 26)
+ 2 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 6 APPPATH\Controllers\Lists.php(110): view('lists/orders', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 19:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 19:25:27 --> Array to string conversion
+in APPPATH\Views\lists\orders.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lists\\orders.php', 26)
+ 2 APPPATH\Views\lists\orders.php(26): array_combine([...], [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 6 APPPATH\Controllers\Lists.php(110): view('lists/orders', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 19:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 19:36:12 --> syntax error, unexpected token "if", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 19:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 19:41:53 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(38): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(146): App\Models\CustomersModel->getUserid('1')
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->suborder('1')
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 19:41:53 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE 0 = :0:
+AND 1 = :1:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\CustomersModel.php(38): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(146): App\Models\CustomersModel->getUserid('1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->suborder('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 19:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 19:42:26 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT "userid"...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT "userid"...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "userid"...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(38): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(146): App\Models\CustomersModel->getUserid('1')
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->suborder('1')
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-21 19:42:26 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 3: WHERE 0 = :0:
+                  ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "userid"
+FROM "customer"
+WHERE 0 = :0:
+AND 1 = :1:', [...], false)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\CustomersModel.php(38): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Lists.php(146): App\Models\CustomersModel->getUserid('1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->suborder('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 19:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 19:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 20:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 20:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:16:49 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\OrdersModel.php(20): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(64): App\Models\OrdersModel->getOrders([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:21:23 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\OrdersModel.php(22): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(64): App\Models\OrdersModel->getOrders([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:21:49 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\OrdersModel.php(22): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(64): App\Models\OrdersModel->getOrders([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:26:13 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code", "name"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code", "name"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Models\OrdersModel.php(23): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\Lists.php(64): App\Models\OrdersModel->getOrders([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:27:07 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Models\OrdersModel.php(23): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\Lists.php(64): App\Models\OrdersModel->getOrders([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:30:00 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\OrdersModel.php(23): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(64): App\Models\OrdersModel->getOrders([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:31:50 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\OrdersModel.php(23): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:31:55 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\OrdersModel.php(23): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:32:49 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" = :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\OrdersModel.php(23): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:33:02 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\OrdersModel.php(29): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:33:35 --> Undefined variable $orders
+in APPPATH\Models\OrdersModel.php on line 30.
+ 1 APPPATH\Models\OrdersModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orders', 'APPPATH\\Models\\OrdersModel.php', 30)
+ 2 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:33:46 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Models\OrdersModel.php(29): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:36:08 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Models\OrdersModel.php(30): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:36:33 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Models\OrdersModel.php(31): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:37:20 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Models\OrdersModel.php(32): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:38:36 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('orderid', '4,3,10,5,4,5,5,5,5,5,5,3,3,3', false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('orderid', '4,3,10,5,4,5,5,5,5,5,5,3,3,3')
+ 3 APPPATH\Models\OrdersModel.php(31): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-21 20:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 20:39:47 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "fly_code", "fly_code"
+FROM "orders"
+WHERE "fly_code" = :fly_code:
+AND "fly_code" = :fly_code.1:
+AND "orderid" IN :orderid:', [...], false)
+ 7 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Models\OrdersModel.php(30): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\Lists.php(63): App\Models\OrdersModel->getOrders([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

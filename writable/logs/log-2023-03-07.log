@@ -1,0 +1,157 @@
+CRITICAL - 2023-03-07 12:21:12 --> Undefined array key "customerid"
+in APPPATH\Controllers\Lists.php on line 51.
+ 1 APPPATH\Controllers\Lists.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customerid"', 'APPPATH\\Controllers\\Lists.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 13:17:50 --> Undefined array key "customerid"
+in APPPATH\Controllers\Lists.php on line 51.
+ 1 APPPATH\Controllers\Lists.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customerid"', 'APPPATH\\Controllers\\Lists.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 13:18:05 --> Undefined variable $job
+in APPPATH\Views\lists\jobs.php on line 73.
+ 1 APPPATH\Views\lists\jobs.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $job', 'APPPATH\\Views\\lists\\jobs.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\jobs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/jobs', [], true)
+ 5 APPPATH\Controllers\Lists.php(41): view('lists/jobs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->jobs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 13:18:11 --> Undefined array key "customerid"
+in APPPATH\Controllers\Lists.php on line 51.
+ 1 APPPATH\Controllers\Lists.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customerid"', 'APPPATH\\Controllers\\Lists.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 13:48:24 --> Attempt to read property "" on string
+in APPPATH\Models\OrdersModel.php on line 23.
+ 1 APPPATH\Models\OrdersModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "" on string', 'APPPATH\\Models\\OrdersModel.php', 23)
+ 2 APPPATH\Controllers\Lists.php(52): App\Models\OrdersModel->getCustomerid(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 13:48:55 --> Undefined variable $user
+in APPPATH\Views\lists\orders.php on line 22.
+ 1 APPPATH\Views\lists\orders.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\lists\\orders.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(59): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 13:51:30 --> Undefined array key "name"
+in APPPATH\Views\lists\orders.php on line 22.
+ 1 APPPATH\Views\lists\orders.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\lists\\orders.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(59): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 13:52:50 --> Undefined array key "name"
+in APPPATH\Views\lists\orders.php on line 22.
+ 1 APPPATH\Views\lists\orders.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\lists\\orders.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(59): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 13:53:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\lists\orders.php on line 22.
+ 1 APPPATH\Views\lists\orders.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\lists\\orders.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(59): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 13:53:29 --> Undefined array key "orderno"
+in APPPATH\Views\lists\orders.php on line 23.
+ 1 APPPATH\Views\lists\orders.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orderno"', 'APPPATH\\Views\\lists\\orders.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(59): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 14:00:00 --> Undefined array key "orderno"
+in APPPATH\Views\lists\orders.php on line 23.
+ 1 APPPATH\Views\lists\orders.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orderno"', 'APPPATH\\Views\\lists\\orders.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(59): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 14:06:24 --> syntax error, unexpected end of file
+in APPPATH\Views\lists\orders.php on line 87.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 3 APPPATH\Controllers\Lists.php(64): view('lists/orders', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 14:13:05 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\lists\orders.php on line 84.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 3 APPPATH\Controllers\Lists.php(64): view('lists/orders', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 14:14:43 --> Undefined variable $userid
+in APPPATH\Views\lists\orders.php on line 24.
+ 1 APPPATH\Views\lists\orders.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'APPPATH\\Views\\lists\\orders.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(64): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 14:15:55 --> Undefined variable $ordersign
+in APPPATH\Views\lists\orders.php on line 24.
+ 1 APPPATH\Views\lists\orders.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ordersign', 'APPPATH\\Views\\lists\\orders.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(64): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 14:17:04 --> Undefined array key "id"
+in APPPATH\Views\lists\orders.php on line 47.
+ 1 APPPATH\Views\lists\orders.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\lists\\orders.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\orders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/orders', [], true)
+ 5 APPPATH\Controllers\Lists.php(64): view('lists/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

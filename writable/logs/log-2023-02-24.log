@@ -1,0 +1,41 @@
+CRITICAL - 2023-02-24 11:05:23 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-24 15:03:17 --> Undefined global variable $_SESSION
+in APPPATH\Views\commons\_sidebar.php on line 15.
+ 1 APPPATH\Views\commons\_sidebar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'APPPATH\\Views\\commons\\_sidebar.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\commons\\_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('commons/_sidebar', [], true)
+ 5 APPPATH\Controllers\Accounts.php(24): view('commons/_sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accounts->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-24 15:03:31 --> Undefined global variable $_SESSION
+in APPPATH\Views\commons\_sidebar.php on line 15.
+ 1 APPPATH\Views\commons\_sidebar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'APPPATH\\Views\\commons\\_sidebar.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\commons\\_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('commons/_sidebar', [], true)
+ 5 APPPATH\Controllers\Accounts.php(24): view('commons/_sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accounts->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-24 15:03:43 --> Undefined global variable $_SESSION
+in APPPATH\Views\commons\_sidebar.php on line 70.
+ 1 APPPATH\Views\commons\_sidebar.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'APPPATH\\Views\\commons\\_sidebar.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\commons\\_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('commons/_sidebar', [], true)
+ 5 APPPATH\Controllers\Accounts.php(24): view('commons/_sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accounts->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

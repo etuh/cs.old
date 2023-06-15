@@ -1,0 +1,593 @@
+ERROR - 2023-02-26 09:32:53 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(75): pg_connect('host=localhost ...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(14): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(23): App\Models\UsersModel->getUsers(NULL)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->users()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-26 09:32:53 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "users"', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\UsersModel.php(14): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Lists.php(23): App\Models\UsersModel->getUsers(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-26 09:33:11 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(75): pg_connect('host=localhost ...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(17): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(23): App\Models\UsersModel->getUsers('4')
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->users('4')
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-26 09:33:11 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "users"
+WHERE "userid" = :userid:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsersModel.php(17): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Lists.php(23): App\Models\UsersModel->getUsers('4')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('4')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 11:34:48 --> Class "App\Model" not found
+in APPPATH\Models\UsersModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\UsersModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsersModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsersModel')
+ 5 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\UsersModel')
+ 6 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\UsersModel')
+ 7 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\UsersModel', [...], null)
+ 9 APPPATH\Controllers\Lists.php(17): model('App\\Models\\UsersModel')
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 11:35:18 --> Call to undefined method App\Models\UserModel::getUsers
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Lists.php(19): CodeIgniter\Model->__call('getUsers', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-26 11:37:06 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(75): pg_connect('host=localhost ...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(17): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(19): App\Models\UsersModel->getUsers(NULL)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->users()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-26 11:37:06 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "users"', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\UsersModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Lists.php(19): App\Models\UsersModel->getUsers(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 11:40:38 --> Array to string conversion
+in APPPATH\Views\lists\users.php on line 45.
+ 1 APPPATH\Views\lists\users.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lists\\users.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(21): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 12:02:46 --> Array to string conversion
+in APPPATH\Views\lists\users.php on line 45.
+ 1 APPPATH\Views\lists\users.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lists\\users.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 12:11:37 --> Array to string conversion
+in APPPATH\Views\lists\users.php on line 45.
+ 1 APPPATH\Views\lists\users.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lists\\users.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 12:29:36 --> Array to string conversion
+in APPPATH\Views\lists\users.php on line 45.
+ 1 APPPATH\Views\lists\users.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lists\\users.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 12:30:50 --> syntax error, unexpected token ";"
+in APPPATH\Views\lists\users.php on line 45.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 3 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 12:31:32 --> syntax error, unexpected token ";"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 3 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 12:31:51 --> Undefined variable $title
+in APPPATH\Views\layouts\main.php on line 6.
+ 1 APPPATH\Views\layouts\main.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layouts\\main.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/main', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 6 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 13:25:36 --> syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\Lists.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('lists/users/1')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('lists/users/1')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('lists/users/1')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 13:27:19 --> syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\Lists.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('lists/users/1')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('lists/users/1')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('lists/users/1')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 13:35:44 --> Undefined array key "username"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 APPPATH\Views\lists\users.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\lists\\users.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 15:45:18 --> Undefined global variable $_SESSION
+in APPPATH\Views\layouts\main.php on line 47.
+ 1 APPPATH\Views\layouts\main.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'APPPATH\\Views\\layouts\\main.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/main', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 6 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-26 15:46:05 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-26 15:46:05 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "users"
+WHERE "userid" = :userid:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-26 15:46:21 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-26 15:46:21 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "users"
+WHERE "userid" = :userid:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-26 15:46:52 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-26 15:46:52 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "users"
+WHERE "userid" = :userid:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-26 15:47:15 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-26 15:47:15 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "users"
+WHERE "userid" = :userid:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-26 15:48:59 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^ in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-26 15:48:59 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;null&quot;
+LINE 3: WHERE &quot;userid&quot; = 'null'
+                         ^
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "users"
+WHERE "userid" = :userid:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\UsersModel.php(20): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Lists.php(19): App\Models\UsersModel->getUsers('null')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('null')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 15:49:16 --> Undefined array key "username"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 APPPATH\Views\lists\users.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\lists\\users.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 15:49:26 --> Undefined array key "username"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 APPPATH\Views\lists\users.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\lists\\users.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 15:49:40 --> Undefined array key "username"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 APPPATH\Views\lists\users.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\lists\\users.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 15:50:27 --> Undefined array key "username[0]"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 APPPATH\Views\lists\users.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username[0]"', 'APPPATH\\Views\\lists\\users.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 15:50:51 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 3 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 15:51:21 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 3 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 15:51:42 --> Undefined array key "username"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 APPPATH\Views\lists\users.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\lists\\users.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 15:52:29 --> Undefined array key "username"
+in APPPATH\Views\lists\users.php on line 46.
+ 1 APPPATH\Views\lists\users.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\lists\\users.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(22): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 16:49:49 --> Undefined array key "name"
+in APPPATH\Views\lists\users.php on line 47.
+ 1 APPPATH\Views\lists\users.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\lists\\users.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(26): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 16:52:54 --> syntax error, unexpected token ")"
+in APPPATH\Views\lists\users.php on line 47.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 3 APPPATH\Controllers\Lists.php(26): view('lists/users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 16:53:35 --> Undefined array key 0
+in APPPATH\Views\lists\users.php on line 48.
+ 1 APPPATH\Views\lists\users.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\lists\\users.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(26): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 16:55:54 --> Cannot access offset of type string on string
+in APPPATH\Views\lists\users.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 4 APPPATH\Controllers\Lists.php(26): view('lists/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 16:59:36 --> Cannot access offset of type string on string
+in APPPATH\Views\lists\users.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 4 APPPATH\Controllers\Lists.php(26): view('lists/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 17:21:40 --> Cannot access offset of type string on string
+in APPPATH\Views\lists\users.php on line 47.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 4 APPPATH\Controllers\Lists.php(26): view('lists/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 17:22:49 --> Cannot access offset of type string on string
+in APPPATH\Views\lists\users.php on line 47.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 4 APPPATH\Controllers\Lists.php(26): view('lists/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 17:29:12 --> Cannot access offset of type string on string
+in APPPATH\Views\lists\users.php on line 47.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 4 APPPATH\Controllers\Lists.php(26): view('lists/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 19:15:33 --> Cannot access offset of type string on string
+in APPPATH\Views\lists\users.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 4 APPPATH\Controllers\Lists.php(26): view('lists/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 19:17:30 --> Cannot access offset of type string on string
+in APPPATH\Views\lists\users.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 4 APPPATH\Controllers\Lists.php(25): view('lists/users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 19:21:43 --> Undefined variable $userid
+in APPPATH\Views\lists\users.php on line 46.
+ 1 APPPATH\Views\lists\users.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'APPPATH\\Views\\lists\\users.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\users.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/users', [], true)
+ 5 APPPATH\Controllers\Lists.php(24): view('lists/users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->users('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

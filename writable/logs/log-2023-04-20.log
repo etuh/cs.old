@@ -1,0 +1,463 @@
+INFO - 2023-04-20 08:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 08:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 08:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 08:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 08:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 08:44:39 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Lists.php on line 215.
+ 1 APPPATH\Controllers\Lists.php(215): array_push(null, '23')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 08:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-20 08:57:21 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('23','1','7','8','11','17','18','19','20',...
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\fgpr\app\Models\CustomersModel.php(41): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\fgpr\app\Controllers\Lists.php(219): App\Models\CustomersModel->getCustomersByUserid(Array)
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Lists->customers()
+#10 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+#11 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-20 08:57:21 --> pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 3: WHERE &quot;userid&quot; = ('23','1','7','8','11','17','18','19','20',...
+                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "customer"
+WHERE "userid" = :userid:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CustomersModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Lists.php(219): App\Models\CustomersModel->getCustomersByUserid([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 09:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 09:02:58 --> Attempt to read property "customerid" on array
+in APPPATH\Models\CustomersModel.php on line 47.
+ 1 APPPATH\Models\CustomersModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "customerid" on array', 'APPPATH\\Models\\CustomersModel.php', 47)
+ 2 APPPATH\Controllers\Lists.php(219): App\Models\CustomersModel->getCustomersByUserid([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 09:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 09:04:17 --> Attempt to read property "customerid" on array
+in APPPATH\Models\CustomersModel.php on line 48.
+ 1 APPPATH\Models\CustomersModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "customerid" on array', 'APPPATH\\Models\\CustomersModel.php', 48)
+ 2 APPPATH\Controllers\Lists.php(219): App\Models\CustomersModel->getCustomersByUserid([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 09:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 09:06:44 --> Undefined array key "uid"
+in APPPATH\Views\lists\customers.php on line 82.
+ 1 APPPATH\Views\lists\customers.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "uid"', 'APPPATH\\Views\\lists\\customers.php', 82)
+ 2 APPPATH\Views\lists\customers.php(46): displayCidByUid([...], '23')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 6 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 09:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 09:07:15 --> Undefined array key "uid"
+in APPPATH\Views\lists\customers.php on line 82.
+ 1 APPPATH\Views\lists\customers.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "uid"', 'APPPATH\\Views\\lists\\customers.php', 82)
+ 2 APPPATH\Views\lists\customers.php(46): displayCidByUid([...], '23')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 6 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 09:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 09:07:22 --> Undefined array key "uid"
+in APPPATH\Views\lists\customers.php on line 82.
+ 1 APPPATH\Views\lists\customers.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "uid"', 'APPPATH\\Views\\lists\\customers.php', 82)
+ 2 APPPATH\Views\lists\customers.php(46): displayCidByUid([...], '23')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 6 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 09:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 09:10:13 --> Undefined array key "uid"
+in APPPATH\Views\lists\customers.php on line 83.
+ 1 APPPATH\Views\lists\customers.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "uid"', 'APPPATH\\Views\\lists\\customers.php', 83)
+ 2 APPPATH\Views\lists\customers.php(46): displayCidByUid([...], '23')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 6 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 11:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 11:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:13:11 --> Call to a member function disable() on null
+in APPPATH\Controllers\Forms.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:13:18 --> Undefined array key "uid"
+in APPPATH\Views\lists\customers.php on line 83.
+ 1 APPPATH\Views\lists\customers.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "uid"', 'APPPATH\\Views\\lists\\customers.php', 83)
+ 2 APPPATH\Views\lists\customers.php(46): displayCidByUid([...], '23')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 6 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:17:57 --> Undefined array key "uid"
+in APPPATH\Views\lists\customers.php on line 83.
+ 1 APPPATH\Views\lists\customers.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "uid"', 'APPPATH\\Views\\lists\\customers.php', 83)
+ 2 APPPATH\Views\lists\customers.php(46): displayCidByUid([...], '23')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 6 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:18:15 --> Undefined variable $customers
+in APPPATH\Views\lists\customers.php on line 47.
+ 1 APPPATH\Views\lists\customers.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'APPPATH\\Views\\lists\\customers.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 5 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:18:58 --> Undefined array key 23
+in APPPATH\Views\lists\customers.php on line 47.
+ 1 APPPATH\Views\lists\customers.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 23', 'APPPATH\\Views\\lists\\customers.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 5 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:29:56 --> Undefined variable $customers
+in APPPATH\Views\lists\customers.php on line 47.
+ 1 APPPATH\Views\lists\customers.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'APPPATH\\Views\\lists\\customers.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 5 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:30:08 --> Undefined variable $userid
+in APPPATH\Views\lists\customers.php on line 47.
+ 1 APPPATH\Views\lists\customers.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'APPPATH\\Views\\lists\\customers.php', 47)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\lists\customers.php(47): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 7 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:30:33 --> Undefined array key 0
+in APPPATH\Views\lists\customers.php on line 47.
+ 1 APPPATH\Views\lists\customers.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\lists\\customers.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 5 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:32:44 --> Undefined array key 0
+in APPPATH\Views\lists\customers.php on line 49.
+ 1 APPPATH\Views\lists\customers.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\lists\\customers.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 5 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:33:36 --> Undefined array key 0
+in APPPATH\Views\lists\customers.php on line 50.
+ 1 APPPATH\Views\lists\customers.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\lists\\customers.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 5 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 13:38:54 --> Undefined array key 0
+in APPPATH\Views\lists\customers.php on line 50.
+ 1 APPPATH\Views\lists\customers.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\lists\\customers.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 5 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 13:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 13:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 14:08:38 --> Undefined array key 0
+in APPPATH\Views\lists\customers.php on line 50.
+ 1 APPPATH\Views\lists\customers.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\lists\\customers.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 5 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 14:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 14:11:26 --> Undefined variable $customers
+in APPPATH\Views\lists\customers.php on line 50.
+ 1 APPPATH\Views\lists\customers.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'APPPATH\\Views\\lists\\customers.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 5 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 14:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 14:11:33 --> Undefined array key 0
+in APPPATH\Views\lists\customers.php on line 86.
+ 1 APPPATH\Views\lists\customers.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\lists\\customers.php', 86)
+ 2 APPPATH\Views\lists\customers.php(50): displayCidByUid([...], '23')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lists\\customers.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lists/customers', [], true)
+ 6 APPPATH\Controllers\Lists.php(221): view('lists/customers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lists->customers()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lists))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 14:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 14:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 16:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 16:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 16:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 16:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 16:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 16:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 16:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 16:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 17:09:13 --> The route for "http://localhost/index.php/users/delete/7" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/index.php/users/delete/7')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Delete.php(33): redirect('http://localhost/index.php/users/delete/7')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Delete->DeleteUser('7')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Delete))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 17:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-20 17:10:13 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.smtp-test.maildim.com:587 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) in C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'C:\\xampp\\htdocs...', 1863)
+#1 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Email\Email.php(1863): fsockopen('smtp.smtp-test....', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\fgpr\app\Models\UsersModel.php(73): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\fgpr\app\Controllers\Accounts.php(78): App\Models\UsersModel->addUser(Array)
+#7 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Accounts->register()
+#8 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+#9 C:\xampp\htdocs\fgpr\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fgpr\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 17:10:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 17:10:13 --> 
+INFO - 2023-04-20 17:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 17:10:22 --> The route for "http://localhost/index.php/users/delete/39" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/index.php/users/delete/39')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Delete.php(32): redirect('http://localhost/index.php/users/delete/39')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Delete->DeleteUser('39')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Delete))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 17:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 17:17:18 --> Call to undefined method CodeIgniter\HTTP\UserAgent::referrer()
+in APPPATH\Controllers\Delete.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Delete->DeleteUser('8')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Delete))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 17:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 17:20:34 --> Call to a member function disable() on null
+in APPPATH\Controllers\Forms.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 17:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 17:21:28 --> Undefined variable $response
+in APPPATH\Controllers\Forms.php on line 117.
+ 1 APPPATH\Controllers\Forms.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\Forms.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 17:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-20 17:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 17:25:21 --> Undefined array key "flyname"
+in APPPATH\Controllers\Forms.php on line 110.
+ 1 APPPATH\Controllers\Forms.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "flyname"', 'APPPATH\\Controllers\\Forms.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 17:26:22 --> Undefined array key "flyname"
+in APPPATH\Controllers\Forms.php on line 110.
+ 1 APPPATH\Controllers\Forms.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "flyname"', 'APPPATH\\Controllers\\Forms.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 17:33:04 --> Undefined array key "flyname"
+in APPPATH\Controllers\Forms.php on line 110.
+ 1 APPPATH\Controllers\Forms.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "flyname"', 'APPPATH\\Controllers\\Forms.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 17:36:36 --> Undefined array key "flyname"
+in APPPATH\Controllers\Forms.php on line 110.
+ 1 APPPATH\Controllers\Forms.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "flyname"', 'APPPATH\\Controllers\\Forms.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 17:37:50 --> Undefined array key "flyname"
+in APPPATH\Controllers\Forms.php on line 109.
+ 1 APPPATH\Controllers\Forms.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "flyname"', 'APPPATH\\Controllers\\Forms.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 17:41:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Forms.php on line 109.
+ 1 APPPATH\Controllers\Forms.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Forms.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 17:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-20 17:42:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Forms.php on line 109.
+ 1 APPPATH\Controllers\Forms.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Forms.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Forms->getfly()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-20 17:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,34 @@
+CRITICAL - 2023-03-09 10:49:30 --> Undefined variable $success
+in APPPATH\Views\accounts\signup.php on line 21.
+ 1 APPPATH\Views\accounts\signup.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $success', 'APPPATH\\Views\\accounts\\signup.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\accounts\\signup.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('accounts/signup', [], true)
+ 5 APPPATH\Controllers\Accounts.php(57): view('accounts/signup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accounts->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 11:33:39 --> Undefined array key "pass"
+in APPPATH\Models\UsersModel.php on line 24.
+ 1 APPPATH\Models\UsersModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pass"', 'APPPATH\\Models\\UsersModel.php', 24)
+ 2 APPPATH\Controllers\Accounts.php(51): App\Models\UsersModel->addUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accounts->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 11:38:15 --> Undefined array key "pass"
+in APPPATH\Models\UsersModel.php on line 24.
+ 1 APPPATH\Models\UsersModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pass"', 'APPPATH\\Models\\UsersModel.php', 24)
+ 2 APPPATH\Controllers\Accounts.php(51): App\Models\UsersModel->addUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accounts->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-09 11:38:58 --> Array callback must have exactly two elements
+in APPPATH\Models\UsersModel.php on line 24.
+ 1 APPPATH\Controllers\Accounts.php(51): App\Models\UsersModel->addUser([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accounts->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
