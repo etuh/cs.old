@@ -1,4 +1,4 @@
-# Flies Galore CodeIgniter 4 Application
+# ConnectLocal CodeIgniter 4 Application
 
 ## What is CodeIgniter?
 
